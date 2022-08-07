@@ -47,7 +47,6 @@ export default function CreateEvent() {
         let responseJSON = await response.json();
         await createEvent(responseJSON.cid);
       }
-      // check response, if success is false, dont take them to success page
     } catch (error) {
       alert(
         `Oops! Something went wrong. Please refresh and try again. Error ${error}`

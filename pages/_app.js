@@ -10,7 +10,7 @@ import client from "../apollo-client";
 
 export default function MyApp({ Component, pageProps }) {
   const infuraId = process.env.NEXT_PUBLIC_INFURA_ID;
-  console.log("PROJECT ID::", infuraId);
+  // console.log("PROJECT ID::", infuraId);
 
   const { chains, provider } = configureChains(
     [chain.polygon],
