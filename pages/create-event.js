@@ -47,6 +47,7 @@ export default function CreateEvent() {
         let responseJSON = await response.json();
         await createEvent(responseJSON.cid);
       }
+      // check response, if success is false, dont take them to success page
     } catch (error) {
       alert(
         `Oops! Something went wrong. Please refresh and try again. Error ${error}`
@@ -104,7 +105,7 @@ export default function CreateEvent() {
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
       <Head>
-        <title>Create your event | web3rsvp</title>
+        <title>Create your event | RSVP-Web3</title>
         <meta
           name="description"
           content="Create your virtual event on the blockchain"

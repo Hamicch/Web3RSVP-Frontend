@@ -1,0 +1,6 @@
+[submodule "RSVP-backend"]
+	path = RSVP-backend
+	url = https://github.com/Hamicch/Web3-RSVP
+[submodule "RSVP-subgraph"]
+	path = RSVP-subgraph
+	url = https://github.com/Hamicch/rsvp-subgraph
